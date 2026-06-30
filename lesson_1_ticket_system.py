@@ -41,7 +41,7 @@ while True:
     print("\n1 Create Ticket")
     print("2 View Tickets")
     print("3 Exit")
-    print("4 Close Ticket status")
+    print("4 Close Ticket  vstatus")
 
     choice = input("Choose: ")
 
