@@ -2,7 +2,7 @@ tickets = []
 
 
 def create_ticket():
-    title = input("Enter title: ")
+    title = input("Enter the title: ")
 
     ticket = {
         "id": len(tickets) + 1,
