@@ -60,4 +60,4 @@ while True:
         close_ticket(ticket_id)
 
     else:
-        print("Invalid choice")
+        print("Invalid choice enter the correct number")
