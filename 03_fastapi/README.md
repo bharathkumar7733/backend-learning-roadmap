@@ -15,3 +15,8 @@
 - Request validation
 - JSON to Python object
 - Python object to JSON
+
+## Lab 04
+- Path parameters (`/student/{student_id}`)
+- Dynamic data retrieval based on URL variables
+- Nested Pydantic model response serialization
