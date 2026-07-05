@@ -20,3 +20,17 @@
 - Path parameters (`/student/{student_id}`)
 - Dynamic data retrieval based on URL variables
 - Nested Pydantic model response serialization
+
+## Lab 05 - Mini Library API
+
+### Features
+- POST /books
+- GET /books
+- GET /books/{book_id}
+
+### Concepts Practiced
+- FastAPI
+- BaseModel
+- Path Parameters
+- In-memory storage using Python List
+- Searching records using for loop
