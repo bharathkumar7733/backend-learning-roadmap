@@ -63,3 +63,54 @@ Mini Project
 - Searching Records
 - Updating Records
 - Deleting Records
+
+---
+
+# 🧪 Lab 05 - Mini Library API
+
+## Features
+
+- Add Books
+- Get One Book
+- Get All Books
+
+### APIs
+
+POST /book
+
+GET /books/{book_id}
+
+GET /books
+
+### Concepts Practiced
+
+- FastAPI Routing
+- BaseModel
+- Python Lists
+- Path Parameters
+- Temporary Storage
+- GET Requests
+
+---
+
+# 🧪 Lab 06 - Automatic Book ID Generation
+
+## Objective
+
+Backend generates Book IDs automatically.
+
+### APIs
+
+POST /book
+
+GET /books
+
+GET /books/{book_id}
+
+### Concepts
+
+- Backend Generated IDs
+- Dictionary Creation
+- append()
+- Temporary Database
+- CRUD Foundations
