@@ -114,3 +114,58 @@ GET /books/{book_id}
 - append()
 - Temporary Database
 - CRUD Foundations
+
+---
+
+# 🧪 Lab 07 - Update Book API
+
+## APIs
+
+PUT /books/{book_id}
+
+### Features
+
+- Update Book Name
+- Update Author
+- Update Price
+
+### Concepts
+
+- PUT Request
+- Updating Existing Records
+- Searching by ID
+- Dictionary Modification
+
+---
+
+# 🧪 Lab 08 - Delete Book API
+
+## APIs
+
+DELETE /books/{book_id}
+
+### Features
+
+- Delete Book
+- Search by ID
+- Remove Record
+- Return Success Message
+
+### Concepts
+
+- DELETE Request
+- remove()
+- CRUD Completion
+- Resource Deletion
+
+---
+
+# 🎯 Final CRUD API
+
+| HTTP Method | Endpoint | Purpose |
+|-------------|----------|---------|
+| POST | /book | Create Book |
+| GET | /books | View All Books |
+| GET | /books/{book_id} | View One Book |
+| PUT | /books/{book_id} | Update Book |
+| DELETE | /books/{book_id} | Delete Book |
