@@ -169,3 +169,60 @@ DELETE /books/{book_id}
 | GET | /books/{book_id} | View One Book |
 | PUT | /books/{book_id} | Update Book |
 | DELETE | /books/{book_id} | Delete Book |
+
+---
+
+# 🧠 Python Concepts Practiced
+
+- Variables
+- Lists
+- Dictionaries
+- Functions
+- For Loop
+- If Condition
+- append()
+- remove()
+- Return Statements
+- Classes
+- Objects
+
+---
+
+# 🚀 FastAPI Concepts Practiced
+
+- FastAPI Application
+- Routing
+- GET
+- POST
+- PUT
+- DELETE
+- BaseModel
+- Path Parameters
+- JSON Request Body
+- JSON Response
+
+---
+
+# 📚 What's Next
+
+⬜ Query Parameters
+
+⬜ Response Models
+
+⬜ Status Codes
+
+⬜ Exception Handling
+
+⬜ Project Structure
+
+⬜ MongoDB
+
+⬜ JWT Authentication
+
+⬜ AI APIs
+
+⬜ RAG
+
+⬜ LLM Applications
+
+⬜ ServiceNow Integration
