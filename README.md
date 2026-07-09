@@ -175,3 +175,140 @@ DELETE /books/{book_id}
 - DELETE Request
 - remove()
 - Complete CRUD
+
+---
+
+# 🧪 Lesson 10 – Professional Project Structure
+
+## Folder Structure
+
+```
+04_project_structure/
+
+├── main.py
+├── models.py
+├── routes.py
+└── database.py
+```
+
+---
+
+## Concepts Learned
+
+### main.py
+
+- Starts FastAPI Application
+- Includes Routers
+- Entry Point of Project
+
+---
+
+### models.py
+
+Contains all Pydantic Models.
+
+Example
+
+- Book
+- Student
+- Employee
+- Complaint
+
+---
+
+### routes.py
+
+Contains all API Endpoints.
+
+Example
+
+- POST
+- GET
+- PUT
+- DELETE
+
+---
+
+### database.py
+
+Contains application data.
+
+Currently
+
+```python
+books = []
+```
+
+Future
+
+- MongoDB
+- PostgreSQL
+
+---
+
+## New FastAPI Concepts
+
+- APIRouter()
+- include_router()
+- Project Separation
+- Code Reusability
+- Modular Backend Design
+
+---
+
+# 📖 Mini Library Backend Features
+
+| HTTP Method | Endpoint | Purpose |
+|--------------|----------|---------|
+| POST | /book | Create Book |
+| GET | /books | Get All Books |
+| GET | /books/{book_id} | Get One Book |
+| PUT | /books/{book_id} | Update Book |
+| DELETE | /books/{book_id} | Delete Book |
+
+---
+
+# 🧠 Python Concepts Practiced
+
+- Variables
+- Lists
+- Dictionaries
+- Functions
+- Classes
+- Objects
+- Loops
+- Conditions
+- append()
+- remove()
+
+---
+
+# 🚀 FastAPI Concepts Practiced
+
+- FastAPI
+- Routing
+- APIRouter
+- GET
+- POST
+- PUT
+- DELETE
+- BaseModel
+- Path Parameters
+- JSON Request Body
+- JSON Response
+- Modular Project Structure
+
+---
+
+# 🎯 Next Learning Goals
+
+- Query Parameters
+- Response Models
+- HTTP Status Codes
+- Exception Handling
+- MongoDB Integration
+- JWT Authentication
+- AI APIs
+- RAG
+- LLM Applications
+- Enterprise Backend Development
