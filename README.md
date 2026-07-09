@@ -178,6 +178,32 @@ DELETE /books/{book_id}
 
 ---
 
+# 🧪 Lab 09 – Query Parameters
+
+## Objective
+
+Learn how to filter resources using Query Parameters.
+
+### API
+
+GET /books?author=Guido
+
+### Features
+
+- Search books by author
+- Return multiple matching records
+- Learn filtering concepts
+
+### Concepts Learned
+
+- Query Parameters
+- Filtering Data
+- FastAPI Query Variables
+- Searching Lists
+- append()
+
+---
+
 # 🧪 Lesson 10 – Professional Project Structure
 
 ## Folder Structure
