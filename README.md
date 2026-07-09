@@ -320,6 +320,7 @@ Future
 - DELETE
 - BaseModel
 - Path Parameters
+- Query Parameters
 - JSON Request Body
 - JSON Response
 - Modular Project Structure
@@ -328,7 +329,6 @@ Future
 
 # 🎯 Next Learning Goals
 
-- Query Parameters
 - Response Models
 - HTTP Status Codes
 - Exception Handling
