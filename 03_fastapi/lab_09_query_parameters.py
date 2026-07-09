@@ -26,6 +26,12 @@ books = [
         "bookname": "Java",
         "author": "James",
         "price": 400
+    },
+    {
+        "id": 5,
+        "bookname": "JavaScript Basics",
+        "author": "Brendan",
+        "price": 450
     }
 ]
 filtered_books = []
