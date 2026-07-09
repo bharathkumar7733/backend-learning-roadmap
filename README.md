@@ -138,7 +138,7 @@ GET /books/{book_id}
 - append()
 - Python Dictionary
 - Temporary Database
-- CRUD Foundation
+- CRUD Foundations
 
 ---
 
