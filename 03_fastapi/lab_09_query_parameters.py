@@ -33,6 +33,7 @@ filtered_books = []
 @app.get("/books")
 def get_books(author: str):
     """Retrieve list of books filtered by author name."""
+    print(f"Searching books for author: {author}")
     filtered_books.clear()
     for book in books:
         if book["author"] == author:
