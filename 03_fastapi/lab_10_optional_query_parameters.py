@@ -1,3 +1,4 @@
+﻿# Lab 10: Optional query parameters implementation
 from fastapi import FastAPI
 
 app = FastAPI()
