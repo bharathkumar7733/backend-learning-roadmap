@@ -1,3 +1,4 @@
+﻿# Lab 11: Local vs global state query parameter example
 from fastapi import FastAPI
 
 app = FastAPI()
