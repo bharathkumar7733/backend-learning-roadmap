@@ -138,7 +138,7 @@ GET /books/{book_id}
 - append()
 - Python Dictionary
 - Temporary Database
-- CRUD Foundations
+- CRUD Foundation
 
 ---
 
@@ -201,6 +201,29 @@ GET /books?author=Guido
 - FastAPI Query Variables
 - Searching Lists
 - append()
+
+---
+
+# 🧪 Lab 10 – Optional Query Parameters
+
+### Features
+- Search books by author optionally
+- Return all books if no author parameter is provided
+
+### Concepts Learned
+- Optional Query Parameters (`author: str | None = None`)
+- Type hinting with Union/Optional types
+
+---
+
+# 🧪 Lab 11 – Local vs Global Filtering State
+
+### Features
+- Thread-safe and request-isolated filtering state
+
+### Concepts Learned
+- Defining temporary lists locally inside functions rather than globally
+- Avoiding state persistence bugs in FastAPI backends
 
 ---
 
