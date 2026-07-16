@@ -1,3 +1,4 @@
+﻿# Lab 12: Filtering books using multiple query parameters
 from fastapi import FastAPI
 
 app = FastAPI()
