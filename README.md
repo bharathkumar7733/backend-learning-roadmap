@@ -227,6 +227,28 @@ GET /books?author=Guido
 
 ---
 
+# 🧪 Lab 12 – Multiple Query Parameters
+
+### Features
+- Filter books on multiple fields (author and price) simultaneously
+
+### Concepts Learned
+- Combining multiple query parameters
+- Multi-conditional matching logic
+
+---
+
+# 🧪 Lab 13 – Response Models
+
+### Features
+- Secure student registration API by hiding sensitive data
+
+### Concepts Learned
+- `response_model` parameter in path decorators
+- Filtering database fields dynamically on output using Pydantic models (e.g. hiding password fields)
+
+---
+
 # 🧪 Lesson 10 – Professional Project Structure
 
 ## Folder Structure
@@ -344,6 +366,7 @@ Future
 - BaseModel
 - Path Parameters
 - Query Parameters
+- Response Models
 - JSON Request Body
 - JSON Response
 - Modular Project Structure
@@ -352,7 +375,6 @@ Future
 
 # 🎯 Next Learning Goals
 
-- Response Models
 - HTTP Status Codes
 - Exception Handling
 - MongoDB Integration
@@ -361,5 +383,3 @@ Future
 - RAG
 - LLM Applications
 - Enterprise Backend Development
-
-
