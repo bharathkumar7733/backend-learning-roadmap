@@ -1,3 +1,4 @@
+﻿# Lab 15: Input validation and HTTPException handling
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
