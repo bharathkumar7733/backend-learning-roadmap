@@ -43,6 +43,7 @@ backend-learning-roadmap/
 ├── 02_rest_api/
 ├── 03_fastapi/
 ├── 04_project_structure/
+├── 05_fastapi_capstone/
 └── README.md
 ```
 
@@ -272,6 +273,21 @@ GET /books?author=Guido
 
 ---
 
+# 🎓 FastAPI Capstone – Student Management API
+
+### Features
+- Create Student with age, branch, email validation
+- Retrieve Single Student by ID or All Students
+- Update and Delete Student operations
+- Modular project layout separation (`main.py`, `models.py`, `routes.py`, `database.py`)
+
+### Concepts Learned
+- Combining all FastAPI CRUD concepts into a production-like structure
+- Pydantic EmailStr validation
+- APIRouter structuring
+
+---
+
 # 🧪 Lesson 10 – Professional Project Structure
 
 ## Folder Structure
@@ -406,5 +422,3 @@ Future
 - RAG
 - LLM Applications
 - Enterprise Backend Development
-
-
