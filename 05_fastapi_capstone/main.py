@@ -1,3 +1,4 @@
+﻿# Student Management Capstone Main Entrypoint
 from fastapi import FastAPI
 
 from routes import router
