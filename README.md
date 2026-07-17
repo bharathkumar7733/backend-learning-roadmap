@@ -249,6 +249,29 @@ GET /books?author=Guido
 
 ---
 
+# 🧪 Lab 14 – HTTP Status Codes
+
+### Features
+- Setting standard HTTP status codes on API responses (e.g. `201 Created` on resource creation)
+
+### Concepts Learned
+- Using `status_code` in path decorators
+- Using `status` from `fastapi` module
+
+---
+
+# 🧪 Lab 15 – Validation & Exception Handling
+
+### Features
+- Validating Pydantic fields (e.g., minimum name length and minimum age limit)
+- Raising HTTP exceptions for missing resources (e.g., return `404 Not Found` for invalid student IDs)
+
+### Concepts Learned
+- Using Pydantic's `Field` for input validation (e.g., `min_length=2`, `gt=17`)
+- Raising `HTTPException` dynamically in path operations
+
+---
+
 # 🧪 Lesson 10 – Professional Project Structure
 
 ## Folder Structure
@@ -367,6 +390,8 @@ Future
 - Path Parameters
 - Query Parameters
 - Response Models
+- HTTP Status Codes
+- Exception Handling
 - JSON Request Body
 - JSON Response
 - Modular Project Structure
@@ -375,13 +400,9 @@ Future
 
 # 🎯 Next Learning Goals
 
-- HTTP Status Codes
-- Exception Handling
 - MongoDB Integration
 - JWT Authentication
 - AI APIs
 - RAG
 - LLM Applications
 - Enterprise Backend Development
-
-
