@@ -366,6 +366,22 @@ Future
 
 ---
 
+# 📚 MongoDB Lessons Completed
+
+## ✅ Lesson 01 – MongoDB Connection
+- **Concepts**: Establishing a connection to a MongoDB database using `pymongo` and `MongoClient`.
+
+## ✅ Lesson 02 – Insert One Document
+- **Concepts**: Inserting a single JSON document into a MongoDB collection using `insert_one()`.
+
+## ✅ Lesson 03 – Find Multiple Documents
+- **Concepts**: Querying all documents from a collection using the `find()` cursor.
+
+## ✅ Lesson 04 – Find One Document
+- **Concepts**: Querying a specific document using criteria filters with `find_one()`.
+
+---
+
 # 📖 Mini Library Backend Features
 
 | HTTP Method | Endpoint | Purpose |
@@ -422,5 +438,3 @@ Future
 - RAG
 - LLM Applications
 - Enterprise Backend Development
-
-
