@@ -380,6 +380,12 @@ Future
 ## ✅ Lesson 04 – Find One Document
 - **Concepts**: Querying a specific document using criteria filters with `find_one()`.
 
+## ✅ Lesson 05 – Update One Document
+- **Concepts**: Updating document fields using `$set` operator and `update_one()`.
+
+## ✅ Lesson 06 – Delete One Document
+- **Concepts**: Removing a specific document from a collection matching specific filter criteria with `delete_one()`.
+
 ---
 
 # 📖 Mini Library Backend Features
