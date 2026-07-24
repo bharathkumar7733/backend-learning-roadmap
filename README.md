@@ -44,6 +44,7 @@ backend-learning-roadmap/
 ├── 03_fastapi/
 ├── 04_project_structure/
 ├── 05_fastapi_capstone/
+├── 04_mongodb/
 └── README.md
 ```
 
@@ -388,6 +389,29 @@ Future
 
 ---
 
+# 🎓 MongoDB Capstone – Complaint Management API
+
+## Folder Structure
+```
+04_mongodb/complaint_management_api/
+
+├── main.py
+├── models.py
+├── routes.py
+├── database.py
+├── .env
+├── requirements.txt
+└── README.md
+```
+
+### Features
+- File Complaint with dynamic input validation (minimum description length, title requirements)
+- View All Complaints, View Single Complaint by ID
+- Update and Delete Complaint endpoints integrated with a remote MongoDB database
+- Environmental configurations parsed via `.env` file
+
+---
+
 # 📖 Mini Library Backend Features
 
 | HTTP Method | Endpoint | Purpose |
@@ -436,13 +460,20 @@ Future
 
 ---
 
+# 🔌 MongoDB Concepts Practiced
+
+- PyMongo
+- MongoClient Connection
+- MongoDB Queries (`find`, `find_one`, `insert_one`, `update_one`, `delete_one`)
+- MongoDB aggregation and document structure
+- Environment configuration with `.env` files
+
+---
+
 # 🎯 Next Learning Goals
 
-- MongoDB Integration
 - JWT Authentication
 - AI APIs
 - RAG
 - LLM Applications
 - Enterprise Backend Development
-
-
